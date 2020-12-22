@@ -1,4 +1,4 @@
-class colors:
+class color_console:
     end = "\x1b[0m"
     black = "\x1b[1;30;40m"
     red = "\x1b[1;31;40m"
@@ -12,5 +12,5 @@ class colors:
     dark_red = "\x1b[0;31;40m"
     dark_green = "\x1b[0;34;40m"
 
-    def cprint(self, c_color: str, c_msg: str):
-        print(c_color + c_msg + colors.end)
+    def c_print(self, c_color: str, c_msg: str):
+        print(c_color + c_msg + color_console.end)
